@@ -1,0 +1,67 @@
+body{
+	background-color: white;
+	border: solid black;
+}
+
+div.mainContent{
+	width: 50%;
+	height: 2000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: solid black;
+}
+
+div.desc{
+	float: right;
+	width: 200px;
+	height: 500px;
+	background-color: white;
+}
+
+div.name{
+	float: left;
+	text-align: left;
+}
+
+div h1{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+} 
+
+li a{
+	display: block;
+	width: 75px;
+}
+
+<!--below is the HTML-->
+
+<html>
+<head>
+<link rel="stylesheet" href="jn.css">
+<body>
+<div class="name">
+	<h1>Jess</h1>
+	</div>
+	
+<div class="mainContent">
+	<!--pics go here-->
+</div>
+
+<div class="desc">
+	<!--description of maincontent-->
+</div>
+<div style="float: left">
+	<ul>
+		<li>link one</li>
+		<li>link two</li>
+		<li>link three</li>
+	</ul>
+</div>
+
